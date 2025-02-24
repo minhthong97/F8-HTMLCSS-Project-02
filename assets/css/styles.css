@@ -724,6 +724,14 @@ a {
     margin-top: 18px;
 }
 
+.footer .social a {
+    color: #fff;
+}
+
+.footer .social a:hover {
+    color: var(--secondary-color);
+}
+
 .footer .title {
     display: inline-block;
     min-width: 130px;
@@ -741,12 +749,16 @@ a {
 .footer .list li + li {
     margin-top: 12px;
 }
-
+.footer .list,
 .footer .list a {
     color: #bfbcb2;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.86; /* 185.714% */
+}
+
+.footer .list a:hover {
+    color: var(--secondary-color);
 }
 
 .footer .list strong {
