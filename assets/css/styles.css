@@ -22,8 +22,8 @@ body {
 html,
 body {
     scroll-behavior: smooth;
-    overflow: overlay;
 }
+
 ::-webkit-scrollbar {
     border-radius: 0;
     width: 8px;
