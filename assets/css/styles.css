@@ -178,7 +178,7 @@ a {
 /*===== Hero =====*/
 
 .hero {
-    height: calc(100vh - 94px);
+    min-height: calc(100vh - 94px);
     padding: 56px 0 65px;
     background: #fffcf4;
 }
